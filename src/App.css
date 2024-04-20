@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.spinner-container {
+  display: flex;
+  /* Horizontally center the spinner */
+  justify-content: center;
+  /* Vertically center the spinner */
+  align-items: center;
+  /* Make the container full height of the viewport */
+  height: 100vh;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header .title {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.modal-header .subtitle {
+  font-size: medium;
+  font-weight: 100;
+}
